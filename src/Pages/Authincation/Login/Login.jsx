@@ -38,7 +38,7 @@ const Login = () => {
   };
 
   return (
-    <div className="card bg-accent w-full max-w-lg shrink-0 shadow-xl shadow-primary/40">
+    <div className="card bg-transparent w-full max-w-lg shrink-0 shadow-xl shadow-primary/40 mt-22 lg:mt-0">
       <div className="card-body">
         {success ? (
           <div className="flex flex-col items-center justify-center">
@@ -50,7 +50,7 @@ const Login = () => {
         ) : (
           <form onSubmit={handleSubmit(onSubmit)}>
             <fieldset>
-              <h1 className="text-5xl font-bold text-primary my-3">Login now!</h1>
+              <h1 className="text-2xl text-center font-bold text-primary my-3">Login </h1>
               <label className="label text-secondary">Email</label>
               <input
                 type="email"

@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqData = [
   {
-    question: "How does this posture corrector work?",
+    question: "TODO _How does this posture corrector work?",
     answer:
       "A posture corrector works by providing support and gentle alignment to your shoulders, back, and spine, encouraging you to maintain proper posture throughout the day. It helps strengthen muscles and improves overall posture effortlessly.",
   },

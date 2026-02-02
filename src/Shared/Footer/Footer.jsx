@@ -31,7 +31,7 @@ const Footer = () => {
               <Logo></Logo>
             </div>
             <h2 className="text-primary text-[17px] break-words">
-              Learning by building. Improving with every project.
+             Fast delivery service you can trust.
             </h2>
             <nav>
               <ul className="flex flex-wrap gap-3 md:gap-6 text-2xl mt-2">
@@ -41,12 +41,12 @@ const Footer = () => {
                       <a
                         href={
                           icon === faFacebook
-                            ? "https://www.facebook.com/rohan.kabir.877108"
+                            ? "#"
                             : icon === faGithub
-                            ? "https://github.com/RohanR05"
+                            ? "#"
                             : icon === faLinkedin
-                            ? "https://www.linkedin.com/in/rohan-batman/"
-                            : "https://wa.me/8801906647607"
+                            ? "#"
+                            : "#"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -110,13 +110,13 @@ const Footer = () => {
               Contact Info..
             </h2>
             <p className="flex items-center gap-2 text-sm text-primary mb-1">
-              <FontAwesomeIcon icon={faMapMarkerAlt} /> Narail, Bangladesh
+              <FontAwesomeIcon icon={faMapMarkerAlt} /> Wales, ENgland
             </p>
             <p className="flex items-center gap-2 text-sm text-primary mb-1">
-              <FontAwesomeIcon icon={faEnvelope} /> rohankabir061@gmail.com
+              <FontAwesomeIcon icon={faEnvelope} /> ishwspeed@speedy.com
             </p>
             <p className="flex items-center gap-2 text-sm text-primary mb-1">
-              <FontAwesomeIcon icon={faPhone} /> +8801906647607
+              <FontAwesomeIcon icon={faPhone} /> +4143454543432
             </p>
             <p className="flex items-center gap-2 text-sm text-primary font-medium">
               <FontAwesomeIcon icon={faBriefcase} /> Available For Work
